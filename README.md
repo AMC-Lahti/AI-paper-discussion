@@ -45,3 +45,13 @@ Training stiff neural ordinary differential equations in data-driven wastewater 
 - https://doi.org/10.1016/j.compchemeng.2005.11.008
 - Normalization using mean of y and dy/dt on input and output of network
 - Use smoothed regression of y and dy/dt to pretrain the network, help later Neural ODE training converge faster.
+
+
+## Contribute
+
+Start a new [pull request](https://github.com/AMC-Lahti/AI-paper-discussion/pulls)
+
+Checklist:
+- [ ] Include a [DOI link](https://library.centre.edu/citing_sources/DOI) to the paper in the slides
+- [ ] Only upload a pdf copy of the slides, do not upload papers (https://github.com/AMC-Lahti/AI-paper-discussion/issues/1)
+- [ ] Update README with links to paper and slides
