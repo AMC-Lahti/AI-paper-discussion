@@ -23,3 +23,10 @@ We should only post link if PDF is too large.
   - https://doi.org/10.48550/arXiv.2410.01337
   - For PDE/ODE system, to find y(t1) = G(y(t0)), y(t1) = y(t0) + intergal of y'(t) between t0 and t1. y'(t) is a function of system state of time t, i.e, y'(t) = F(y(t)).
   - Numerical methods (Runge-Kutta) to approximate integral, so we only need to find y'(t) = F(y(t)), instead of find y(t1) = G(y(t0)).
+
+## [2025-02-14](2025-02-14)
+
+- Training stiff neural ordinary differential equations in data-driven wastewater process modelling
+  - https://doi.org/10.1016/j.compchemeng.2005.11.008
+  - Normalization using mean of y and dy/dt on input and output of network
+  - Use smoothed regression of y and dy/dt to pretrain the network, help later Neural ODE training converge faster.
