@@ -3,7 +3,7 @@ Memo for weekly AI paper discussion
 
 ## 2024-09-27
 Graph Neural Networks for temporal graphs: State of the art, open challenges, and opportunities
-- paper: https://doi.org/10.48550/arXiv.2302.01018, [slide](slides/2024-09-27.pdf)
+- paper: https://doi.org/10.48550/arXiv.2302.01018, [slide](slides/2024-09-27_gnn.pdf)
 - Methods for snapshot-based GNN: model evolution / embedding evolution
 
 
@@ -21,18 +21,18 @@ PHYMPGN: PHYSICS-ENCODED MESSAGE PASSING GRAPH NETWORK FOR SPATIOTEMPORAL PDE SY
 
 ## 2024-11-01
 Scalable and Consistent Graph Neural Networks for Distributed Mesh-based Data-driven Modeling
-- paper: https://doi.org/10.48550/arXiv.2103.07719, [slide](slides/2024-11-01.pdf)
+- paper: https://doi.org/10.48550/arXiv.2103.07719, [slide](slides/2024-11-01_distributed.pdf)
 - Neural message passing across different compute node to scale GNN to billions of nodes
 
 ## 2024-11-08
 Parameter estimation and modeling of nonlinear dynamical systems based on Runge–Kutta physics-informed neural network
-- paper: https://doi.org/10.1007/s11071-023-08933-6, [slide](slides/2024-11-08.pdf)
+- paper: https://doi.org/10.1007/s11071-023-08933-6, [slide](slides/2024-11-08_RK-PINN.pdf)
 - Neural ODE + RK4 as ODE solver
 - Physical loss: output gradient wrt input should be consistent
 
 ## 2025-02-14
 Training stiff neural ordinary differential equations in data-driven wastewater process modelling
-- paper: https://doi.org/10.1016/j.compchemeng.2005.11.008, [slide](slides/2025-02-14.pdf)
+- paper: https://doi.org/10.1016/j.compchemeng.2005.11.008, [slide](slides/2025-02-14_coll.pdf)
 - Normalization using mean of y and dy/dt on input and output of network
 - Use smoothed regression of y and dy/dt to pretrain the network, help later Neural ODE training converge faster.
 
