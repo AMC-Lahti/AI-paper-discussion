@@ -36,6 +36,11 @@ Training stiff neural ordinary differential equations in data-driven wastewater 
 - Normalization using mean of y and dy/dt on input and output of network
 - Use smoothed regression of y and dy/dt to pretrain the network, help later Neural ODE training converge faster.
 
+## 2025-03-28
+- paper: https://doi.org/10.1029/2021MS002926, [slide](slides/2025-03-28_yearlong.pdf)
+- stable year long chemistry reaction solver for a simplified chemistry scheme
+- online training, recursive solver
+
 
 ## Contribute
 
